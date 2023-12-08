@@ -1,0 +1,27 @@
+.user {
+  display: flex;
+  gap: 12px;
+}
+
+.user__photo {
+  width: 42px;
+  height: 42px;
+}
+
+.user__name {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #000000;
+}
+
+.user__position {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #757575;
+}

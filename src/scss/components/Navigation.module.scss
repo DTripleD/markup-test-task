@@ -1,0 +1,40 @@
+.pages__options {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #9197b3;
+  padding: 11px 8px 11px 11px;
+  border-radius: 8px;
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pages__options--active {
+  color: #ffffff;
+  background-color: #5932ea;
+}
+
+.pages__text {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.icon__navigation {
+  width: 24px;
+  height: 24px;
+}
+
+.icon__chevron {
+  width: 16px;
+  height: 16px;
+  stroke: #9197b3;
+}
+
+.icon__chevron--active {
+  stroke: #ffffff;
+}

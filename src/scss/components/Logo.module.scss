@@ -1,0 +1,29 @@
+.logo__wrapper {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 64px;
+}
+
+.icon__logo {
+  width: 37px;
+  height: 37px;
+}
+
+.logo__text {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: 1%;
+
+  color: #000000;
+}
+
+.logo__span {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: -0.01em;
+  text-align: left;
+
+  color: #838383;
+}

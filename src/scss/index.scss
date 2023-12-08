@@ -1,0 +1,37 @@
+@import "/node_modules/modern-normalize/modern-normalize.css";
+
+@import "./components/Logo.module.scss";
+@import "./components/Navigation.module.scss";
+@import "./components/Pagination.module.scss";
+@import "./components/Sidebar.module.scss";
+@import "./components/Table.module.scss";
+@import "./components/User.module.scss";
+
+@import "./base/base";
+@import "./base/reset";
+
+.container {
+  display: flex;
+  gap: 8px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.hello__message {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 51px;
+}
+
+.main {
+  padding: 41px 95px 41px 71px;
+}
+
+.user-table__list {
+  margin-left: 38px;
+  margin-right: 40px;
+}
