@@ -1,16 +1,15 @@
-import "./App.css";
+import { useState } from "react";
 
 import Sidebar from "./components/Sidebar";
-import Table from "./components/Table";
+import Main from "./components/Main";
 
 function App() {
+  const [isShown, setIsShown] = useState(false);
+
   return (
     <>
-      <Sidebar />
-      <div className="main">
-        <h2 className="hello__message">Hello Evano 👋🏼,</h2>
-        <Table />
-      </div>
+      <Sidebar isShown={isShown} setIsShown={setIsShown} />
+      <Main setIsShown={setIsShown} />
     </>
   );
 }

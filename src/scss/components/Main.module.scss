@@ -1,0 +1,38 @@
+.main {
+  margin-right: auto;
+  margin-left: auto;
+
+  padding: 41px 15px 41px 15px;
+
+  @media screen and (min-width: 1300px) {
+    padding: 41px 0 41px 0;
+  }
+}
+
+.header__wrapper {
+  margin-bottom: 51px;
+  @media screen and (max-width: 1299px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.hello__message {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.sidebar__button {
+  background-color: transparent;
+  border: none;
+}
+
+.icon__menu {
+  height: 28px;
+  width: 28px;
+}

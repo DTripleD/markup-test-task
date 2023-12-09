@@ -9,6 +9,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width: 1299px) {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
 
 .table__name {
@@ -75,36 +80,50 @@
 }
 
 .table__item--width:nth-child(1) {
-  width: 118px;
-  margin-right: 54px;
+  @media screen and (min-width: 1300px) {
+    width: 118px;
+    margin-right: 54px;
+  }
 }
 
 .table__item--width:nth-child(2) {
-  width: 70px;
-  margin-right: 61px;
+  @media screen and (min-width: 1300px) {
+    width: 70px;
+    margin-right: 61px;
+  }
 }
 
 .table__item--width:nth-child(3) {
-  width: 109px;
-  margin-right: 47px;
+  @media screen and (min-width: 1300px) {
+    width: 109px;
+    margin-right: 47px;
+  }
 }
 
 .table__item--width:nth-child(4) {
-  width: 169px;
-  margin-right: 38px;
+  @media screen and (min-width: 1300px) {
+    width: 169px;
+    margin-right: 38px;
+  }
 }
 
 .table__item--width:nth-child(5) {
-  width: 94px;
-  margin-right: 46px;
+  @media screen and (min-width: 1300px) {
+    width: 94px;
+    margin-right: 46px;
+  }
 }
 
 .users-table__item {
   display: flex;
+  align-items: center;
   border-bottom: 1px solid #eeeeee;
   padding: 20px 0 20px 0;
-  display: flex;
-  align-items: center;
+
+  @media screen and (max-width: 1299px) {
+    flex-direction: column;
+    gap: 5px;
+  }
 }
 
 .users-table__text {
@@ -147,4 +166,9 @@
 
 .status__text--inactive {
   color: #df0404;
+}
+
+.user-table__list {
+  margin-left: 38px;
+  margin-right: 40px;
 }

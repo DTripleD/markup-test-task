@@ -1,6 +1,7 @@
 import icon from "../images/icons.svg";
 import users from "../../users.json";
 import Pagination from "./Pagination";
+import MediaQuery from "react-responsive";
 
 const Table = () => {
   return (
@@ -18,18 +19,21 @@ const Table = () => {
         </div>
       </div>
       <div>
-        <ul className="table__header-wrapper">
-          <li className="table__header-text table__item--width">
-            Customer Name
-          </li>
-          <li className="table__header-text table__item--width">Company</li>
-          <li className="table__header-text table__item--width">
-            Phone Number
-          </li>
-          <li className="table__header-text table__item--width">Email</li>
-          <li className="table__header-text table__item--width">Country</li>
-          <li className="table__header-text table__item--width">Status</li>
-        </ul>
+        <MediaQuery minWidth={1300}>
+          <ul className="table__header-wrapper">
+            <li className="table__header-text table__item--width">
+              Customer Name
+            </li>
+            <li className="table__header-text table__item--width">Company</li>
+            <li className="table__header-text table__item--width">
+              Phone Number
+            </li>
+            <li className="table__header-text table__item--width">Email</li>
+            <li className="table__header-text table__item--width">Country</li>
+            <li className="table__header-text table__item--width">Status</li>
+          </ul>
+        </MediaQuery>
+
         <ul className="user-table__list">
           {users.map((user) => (
             <li key={user.number} className="users-table__item">
