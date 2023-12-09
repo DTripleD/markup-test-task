@@ -9,4 +9,4 @@
 
 ## Live page
 
-Live page can be accessed via [https://dtripled.github.io/project-drink-master/](https://dtripled.github.io/project-drink-master/)
+Live page can be accessed via [https://dtripled.github.io/markup-test-task/](https://dtripled.github.io/markup-test-task/)

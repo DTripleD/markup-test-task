@@ -1,11 +1,9 @@
+import UserPhoto from "../images/userPhoto.png";
+
 const User = () => {
   return (
     <div className="user">
-      <img
-        className="user__photo"
-        src="/src/images/userPhoto.png"
-        alt="user photo"
-      />
+      <img className="user__photo" src={UserPhoto} alt="user photo" />
       <div className="user__wrapper">
         <h2 className="user__name">Evano</h2>
         <p className="user__position">Project Manager</p>
